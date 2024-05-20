@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+ font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+ line-height: 1.5;
+}
+.nav{
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.hero{
+  background:url('../src/assets/asset\ 4.jpeg');
+  width: 83.33%;
+  margin-inline: auto;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* @media(max-width: 900px){
+  .hero{
+    width: 100%;
+    height: 100%;
+  }
+} */
+
+
